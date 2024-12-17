@@ -3,68 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Basics</title>
+    <title>พื้นฐาน HTML จาก Lecture02</title>
+    <style>
+      /* CSS */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #d3fffb;
+        color: #454545;
+      }
+      h1 {
+        color: #1971be;
+        text-align: center;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .section {
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 800px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      a {
+        color: #1e88e5;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+      }
+      .comment {
+        font-style: italic;
+        color: #666;
+      }
+    </style>
   </head>
   <body>
-    <!-- ส่วนข้อความ (Text) -->
-    <header>
-      <h1 style="color: blue; text-align: center">Welcome to HTML Basics</h1>
-      <p
-        style="
-          font-size: 18px;
-          font-family: Arial, sans-serif;
-          text-align: justify;
-        "
-      >
-        HTML (HyperText Markup Language) is the standard markup language for
-        creating web pages. Below are examples of basic elements such as text,
-        images, links, and styles.
+    <!-- Section1: Heading -->
+    <div id="section-heading" class="section">
+      <h1>การแสดงหัวข้อด้วย Heading</h1>
+      <p class="comment">
+        <u> ตัวหนังสือหัวข้อสีฟ้าด้านบนนี้คือ Heading 1 </u>
       </p>
-    </header>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </div>
 
-    <!-- ส่วนรูปภาพ (Image) -->
-    <section>
-      <h2 style="color: green">Sample Image</h2>
+    <!-- Section2: Paragraph -->
+    <div class="section">
+      <h1>การเขียน Paragraph</h1>
+      <p>"นี่คือย่อหน้าตัวอย่างที่ใช้แท็ก &lt;p&gt; ใน HTML."</p>
+      <p>
+        การเขียนย่อหน้าหลายบรรทัดช่วยให้อ่านง่ายขึ้น
+        และแบ่งเนื้อหาได้อย่างชัดเจน.
+      </p>
+    </div>
+
+    <!-- Section3: Formatting -->
+    <div class="section">
+      <h1>การจัดรูปแบบข้อความ</h1>
+      <p><strong>ข้อความตัวหนา (Bold)</strong></p>
+      <p><em>ข้อความตัวเอียง (Italic)</em></p>
+      <p><u>ข้อความขีดเส้นใต้ (Underline)</u></p>
+      <p>ข้อความที่มี <mark>พื้นหลังสีเหลือง</mark></p>
+    </div>
+
+    <!-- Section4: Hyperlink -->
+    <div class="section">
+      <h1>การสร้าง Hyperlink</h1>
+      <p>
+        ลิงก์ไปยังเว็บไซต์อื่น:
+        <a
+          href="https://youtu.be/dQw4w9WgXcQ?si=2EyPdTur4D70pc0K"
+          target="_blank"
+          >คลิกที่นี่</a
+        >
+      </p>
+      <p>
+        ลิงก์ภายในไฟล์ HTML: <a href="#section-image">ไปยังส่วนแสดงภาพ</a>,<a
+          href="#section-heading"
+          >กลับไปส่วนHeading</a
+        >
+      </p>
+    </div>
+
+    <!-- Section5: Image -->
+    <div id="section-image" class="section">
+      <h1>การแสดงรูปภาพ</h1>
       <img
-        src="https://pin.it/3Rx3W33ey"
-        alt="Placeholder Image"
-        style="display: block; margin: 10px auto; border: 2px solid black"
+        src="https://i.pinimg.com/736x/a5/e3/32/a5e3327ec827ce2530ac7c55ee20ff9e.jpg"
+        alt="แฮร่!!!"
       />
-    </section>
+      <p class="comment">
+        &lt;img&gt; ใช้แสดงรูปภาพ พร้อมใส่คำอธิบายรูปใน attribute
+        <strong>alt</strong>.
+      </p>
+    </div>
 
-    <!-- ส่วนลิงก์ (Link) -->
-    <section>
-      <h2 style="color: darkred">Sample Link</h2>
-      <p style="font-size: 16px">
-        Click the link below to visit an example website:
+    <!-- Section6: Comment -->
+    <div class="section">
+      <h1>การเขียน Comment</h1>
+      <!-- นี่คือ Comment ที่ไม่แสดงผลบนหน้าเว็บไซต์ -->
+      <p class="comment">
+        Comment จะไม่ถูกแสดงผลบนเว็บเพจ แต่จะช่วยให้โค้ดอ่านง่ายขึ้น.
       </p>
-      <a
-        href="https://www.example.com"
-        target="_blank"
-        style="color: orange; font-weight: bold; text-decoration: none"
-      >
-        Visit Example Website
-      </a>
-    </section>
-
-    <!-- ตัวอย่างข้อความตกแต่งด้วย style -->
-    <section>
-      <h2 style="color: purple">Styled Text</h2>
-      <p
-        style="background-color: lightyellow; padding: 10px; border-radius: 5px"
-      >
-        This is an example of styled text with a background color, padding, and
-        rounded corners.
-      </p>
-      <p
-        style="
-          font-size: 20px;
-          color: darkblue;
-          text-shadow: 2px 2px 4px lightgray;
-        "
-      >
-        Another example: Text with a larger font size and a text shadow effect.
-      </p>
-    </section>
+    </div>
   </body>
 </html>
