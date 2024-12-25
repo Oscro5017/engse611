@@ -40,6 +40,7 @@
             text-align: center;
             padding: 10px 0;
             background-color: #f4f4f4;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -49,13 +50,16 @@
             text-decoration: none;
             margin: 0 10px;
         }
+        .centerAlign{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <p>About Me</p>
-        <p>My Cat</p>
-        <p>My Hobby</p>
+        <p><a href="about.html">About Me</a></p>
+        <p><a href="mycat.html">My Cat</a></p>
+        <p><a href="hobby.html">My Hobby</a></p>
     </nav>
     
     <main>
@@ -64,11 +68,14 @@
         <header>
             <h1>Welcome to My Lab</h1>
         </header>
-        <img 
-        src="cat.jpg" 
-        alt="Cat Picture" 
-        style="flex: auto;"
-        />
+        <div class="centerAlign">
+            <img 
+            src="cat.jpg" 
+            alt="Cat Picture"
+            style="width: 350px"
+            />
+        </div>
+        <p class="centerAlign">This is the main content of the page. Click on the menu items to navigate to different sections.</p>
     </main>
     <footer>
 
