@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cat</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+      }
+      nav {
+        width: 150px;
+        background-color: #e7fcff;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        height: 100vh;
+      }
+      nav a {
+        display: block;
+        color: #03b7b7;
+        text-decoration:none;
+        margin: 10px 0;
+        padding: 5px 10px;
+        border-radius: 20px;
+        transition: transform 0.2s, background-color 0.2s;
+      }
+      nav a:hover {
+        text-align: center;
+        border: #16aaaa solid 3px;
+        background-color: #16aaaa4d;
+        color: #333333;
+        transform: scale(1.125);
+      }
+      main {
+        flex: 1;
+        padding: 20px;
+      }
+      header {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #03b4b4;
+        color: white;
+        border-radius: 50px;
+      }
+    
+      h3{
+        text-align: center;
+        padding: 10px 0;
+        background-color: #21bebeda;
+        color: white;
+        border-radius: 50px;
+      }
+      a{
+        color: #006eff;
+        text-decoration: none;
+      }
+      a:hover{
+        color: rgb(135, 26, 171);
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h3>Menu</h3>
+      <a href="index.html">Back to Home</a>
+      <a href="about.html">Go to About Me</a>
+      <a href="hobby.html">Go to My Hobby</a>
+    </nav>
+    
+    <main>
+      <header>
+        <h1>My Cat</h1>
+      </header>
+      <h1>Pochi the Cat</h1>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDCsqRYLAFDdL4Ix_AHai7kNVyoPV9Ssv1xg&s"
+      alt="photo of a cat"
+      width="25%"
+      align="right"
+    />
+    <h2>Introduction</h2>
+    <p>
+      Pochi was adopted form an animal shelter and now resides in Seattle, where
+      she runs a small but successful web page design business exclusively for
+      cat clients.
+    </p>
+
+    <h2>Profile</h2>
+    <ol>
+      <li><em>favorite food</em>-smokedsalmon</li>
+      <li><em>hobbies</em>-watching fishing on ESPN, snaking on garden flowers, monitoring the apartment parking lot</li>
+      <li><em>hidden talent</em>-Karaoke</dd></li>
+    </ol>
+
+    <h2>Links</h2>
+    <li style="margin-left: 26px">
+      <a href="http://www.seattle.gov/animalshelter">
+        Seattle Animal Control Shelter
+      </a>
+    </li>
+    <li style="margin-left: 26px">
+      <a href="http://www.humanesociety.org">
+        Humane Soceity of the United States
+      </a>
+    </li>
+
+    <h4>Vital Statistics</h4>
+    <table>
+      <tr>
+        <th>Age</th>
+        <th>Weight</th>
+        <th>Eye Color</th>
+      </tr>
+      <tr>
+        <td>1 month</td>
+        <td>1.5 pounds</td>
+        <td>blue</td>
+      </tr>
+      <tr>
+        <td>1 year</td>
+        <td>8 pounds</td>
+        <td>yellow</td>
+      </tr>
+      <tr>
+        <td>2 years</td>
+        <td>9 pounds</td>
+        <td>yellow</td>
+      </tr>
+    </table>
+
+    <hr />
+    <p>Last updated on 24 June 2013 by Pochi the Cat</p>
+    </main>
+  </body>
+</html>

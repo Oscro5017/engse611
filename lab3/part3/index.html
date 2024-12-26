@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Basic Lab</title>
+    <title>My Lab</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -11,64 +11,84 @@
         display: flex;
       }
       nav {
-        width: 200px;
-        background-color: #f4f4f4;
+        width: 150px;
+        background-color: #e7fcff;
         padding: 20px;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         height: 100vh;
       }
       nav a {
         display: block;
-        color: #333;
-        text-decoration: none;
+        color: #03b7b7;
+        text-decoration:none;
         margin: 10px 0;
+        padding: 5px 10px;
+        border-radius: 20px;
+        transition: transform 0.2s, background-color 0.2s;
       }
       nav a:hover {
-        color: #007bff;
+        text-align: center;
       }
       main {
         flex: 1;
         padding: 20px;
       }
-      header {
+      header{
         text-align: center;
         padding: 10px 0;
-        background-color: #007bff;
+        background-color: #03b4b4;
         color: white;
+        border-radius: 50px;
       }
       footer {
         text-align: center;
         padding: 10px 0;
-        background-color: #f4f4f4;
+        background-color: #c9eaee;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         position: fixed;
         bottom: 0;
         width: 100%;
       }
       footer a {
-        color: #007bff;
+        color: #02a7a7;
         text-decoration: none;
         margin: 0 10px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        transition: background-color 0.2s;
       }
       .centerAlign {
         text-align: center;
+      }
+      h3{
+        text-align: center;
+        padding: 10px 0;
+        background-color: #21bebeda;
+        color: white;
+        border-radius: 50px;
+      }
+      a:hover{
+        border: #16aaaa solid 3px;
+        background-color: #16aaaa4d;
+        color: #333333;
+        transform: scale(1.125);
       }
     </style>
   </head>
   <body>
     <nav>
+      <h3>Menu</h3>
       <a href="about.html">About Me</a>
       <a href="mycat.html">My Cat</a>
       <a href="hobby.html">My Hobby</a>
     </nav>
 
     <main>
-      <!-- main here -->
-
       <header>
-        <h1>Welcome to My Lab</h1>
+        <h1>Welcome</h1>
       </header>
       <div class="centerAlign">
-        <img src="cat.jpg" alt="Cat Picture" style="width: 450px" />
+        <img src="Oscro.jpg" alt="My pic" style="width: 450px; margin-top: 25px; border-radius: 50px;"/>
       </div>
       <p class="centerAlign">
         This is the main content of the page. Click on the menu items to navigate to different sections.

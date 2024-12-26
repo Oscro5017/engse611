@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me 2</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+      }
+      main {
+        flex: 1;
+        padding: 20px;
+      }
+      header {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #03b4b4;
+        color: white;
+        border-radius: 50px;
+      }
+      .centerAlign {
+        text-align: center;
+      }
+      .leftAlign {
+        text-align: left;
+      }
+      .rightAlign {
+        text-align: right;
+      }
+      h3{
+        text-align: center;
+        padding: 10px 0;
+        background-color: #21bebeda;
+        color: white;
+        border-radius: 50px;
+      }
+      a:hover{
+        border: #16aaaa solid 3px;
+        background-color: #16aaaa4d;
+        color: #333333;
+        transform: scale(1.125);
+      }
+      .next-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #03b4b4;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.2s, background-color 0.2s;
+      }
+      
+      .next-button:hover {
+        background-color: #16aaaa;
+        transform: scale(1.1);
+      }
+      .previous-button {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #03b4b4;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.2s, background-color 0.2s;
+      }
+      
+      .previous-button:hover {
+        background-color: #16aaaa;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>About Me</h1>
+      </header>
+      <p class="centerAlign" style="margin-top: 25px;">Hi, my name is Oscro. I'm passionate about art, music, and computers, and I love discovering new things to inspire me. Currently, I work as a graphic designer and am developing my skills in web design. In my free time, I enjoy drawing and listening to music, as they help me recharge and spark my creativity.</p>
+    </main>
+    <div style="display: flex; justify-content: space-between;">
+      <a href="about1.html" class="previous-button"><b>Previous</b></a>
+      <a href="about3.html" class="next-button"><b>Next</b></a>
+    </div>
+  </body>
+</html>
