@@ -14,9 +14,9 @@
   /* Logo Text & Hero Title Color */
   --logo-hero-color: #f9faf8;
   --darkblue: #1F2937;
-    --lightgray: #E5E7EB;
-    --accent-color: #3882F6;
-    --white: #F9FAF8;
+  --lightgray: #E5E7EB;
+  --accent-color: #3882F6;
+  --white: #F9FAF8;
 }
 
 * {
@@ -43,7 +43,9 @@ nav {
   display: flex;
   background-color: #f9faf8;
   padding-left: 220px;
+  padding-right: 220px;
   height: auto;
+  justify-content: space-between;
 }
 
 .container {
@@ -51,6 +53,7 @@ nav {
 
 .navbar .container {
   color: #f9faf8;
+
 }
 
 .navbar .img {
@@ -60,10 +63,9 @@ nav {
 }
 
 .navbar ul {
-  margin-top: 6px;
+  margin-top: 9px;
   float: right;
   display: flex;
-  justify-content: space-around;
 }
 
 .navbar ul a {
@@ -76,17 +78,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 20px;
+    padding-left: 220px;
+    padding-right: 220px;
     background-color: var(--darkblue);
     color: var(--white);
+    height: 500px;
 
 }
 
 .hero .container {
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 80x;
-  padding-bottom: 80px;
 }
 
 .hero h2 {
@@ -106,17 +106,19 @@ nav {
 }
 
 .hero img {
+  margin-left: 100px;
   float: right;
-  width: 275px;
+  width: 310px;
 }
 
 .hero .hero-button {
+  margin-top: 20px;
     display: block;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: var(--accent-color);
     color: var(--white);
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -124,19 +126,25 @@ nav {
 }
 
 .info {
-    padding: 50px 20px;
     text-align: center;
 }
 
 .info .container {
-  display: flex;
+  padding: 20px;
 }
 
 .info .info-header {
+  text-align: center;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .info .boxes {
   display: flex;
+  justify-content:space-between;
+  padding-left: 190px;
+  padding-right: 190px;
 }
 
 .info .box {
@@ -144,6 +152,10 @@ nav {
 }
 
 .info img {
+  width: 240px;
+  padding: 10px;
+  border: #3882F6 solid;
+  border-radius: 10px;
 }
 
 .info .box h3 {
@@ -154,16 +166,25 @@ nav {
 
 .quote {
   display: flex;
+  background-color: #E5E7EB;
 }
 
 .quote .container {
-  display: flex;
+  padding: 100px 220px;
 }
 
 .quote h3 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: lighter;
 }
 
 .quote .quote-attribution {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  float: right;
 }
 
 .CTA {
@@ -171,15 +192,28 @@ nav {
 
 .CTA .container {
   display: flex;
+  margin: 100px 250px;
+  justify-content: space-around;
+  background-color: #3882F6;
+  padding: 40px ;
+  border-radius: 20px;
 }
 
 .CTA .CTA-main-text {
+  color: #E5E7EB;
 }
 
 .CTA .CTA-secondary-text {
+  color: #E5E7EB;
 }
 
 .CTA .CTA-button {
+  float: right;
+  color: #E5E7EB;
+  background-color: #3882F6;
+  border: #E5E7EB solid;
+  border-radius: 10px;
+  padding: 10px 30px;
 }
 
 .CTA .CTA-button:hover {
@@ -193,7 +227,6 @@ nav {
 }
 
 .footer .container {
-  display: flex;
   text-align: center;
 }
 
