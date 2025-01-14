@@ -1,0 +1,21 @@
+li {
+    margin-left: 26px;
+}
+a{
+    color: rgb(12, 156, 60);
+    text-decoration: none;
+}
+a:hover{
+    color: darkgreen;
+    font-size: larger;
+}
+body{
+    background-color: antiquewhite;
+}
+h1, h2{
+    color:rgb(151, 92, 15);
+    text-decoration: underline;
+}
+b{
+    color: rgb(165, 101, 42);
+}

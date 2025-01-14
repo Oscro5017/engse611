@@ -1,0 +1,56 @@
+li {
+    margin-left: 26px;
+}
+a{
+    color: rgb(117, 63, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 238, 0);
+    font-size: larger;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(245, 172, 15);
+}
+b{
+    color: rgb(163, 114, 67);
+}
+header{
+    background-color: rgb(255, 239, 207);
+    border: rgb(255, 239, 207) solid 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+h2.cf{
+     color: rgb(255, 242, 204);
+     text-align: center;
+}
+h2.mf{
+    color: rgb(213, 232, 212);
+    text-align: center;
+}
+div.cf{
+    margin: 10px;;
+    background-color: rgb(182, 152, 77);
+    border: rgb(182, 152, 77) solid 15px;
+    border-radius: 30px;
+}
+div.mf{
+    margin: 10px;
+    background-color: rgb(91, 160, 87);
+    border: rgb(91, 160, 87) solid 15px;
+    border-radius: 30px;
+}
+li, p, i{
+    color: rgb(233, 233, 233);
+}
+div.hs{
+    margin: 20px;
+    font-size: 20px;
+    background-color: rgb(53, 139, 48);
+    border: 15px solid rgb(53, 139, 48);
+    border-radius: 20px;
+}
