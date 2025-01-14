@@ -10,7 +10,7 @@ a:hover{
     font-size: larger;
 }
 body{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(255, 239, 207);
 }
 h1{
     color: rgb(245, 172, 15);
@@ -20,8 +20,6 @@ b{
 }
 header{
     background-color: rgb(255, 239, 207);
-    border: rgb(255, 239, 207) solid 30px;
-    border-radius: 30px;
     text-align: center;
 }
 h2.cf{
