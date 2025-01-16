@@ -156,6 +156,7 @@ nav {
   padding: 10px;
   border: #3882F6 solid;
   border-radius: 10px;
+  aspect-ratio: 1 / 1;
 }
 
 .info .box h3 {
