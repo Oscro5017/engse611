@@ -75,10 +75,8 @@ nav {
   margin-bottom: 20px;
 }
 
-.hero .hero-bold-text {
-}
-
 .hero img {
+  margin-right: 20px;
   margin-left: 100px;
   float: right;
   width: 310px;
@@ -86,6 +84,8 @@ nav {
 }
 
 .hero img:hover{
+  margin-right: 0px;
+  margin-left: 60px;
   width: 350px;
   rotate: 135deg;
   transition: 1s;
