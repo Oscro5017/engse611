@@ -144,10 +144,11 @@ nav {
 }
 
 .info .box:hover {
-  padding: 30px 30px;
+  padding: 20px 40px;
   border: #03948d solid 5px;
   border-radius: 30px;
   transition: 0.5s;
+
 }
 
 .info img {
