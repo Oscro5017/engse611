@@ -43,7 +43,7 @@ nav {
 }
 .navbar ul a:hover{
   color: #ffffff;
-  background: #c98cfa;
+  background: #027777;
   border: #005e51 solid 5px;
   border-radius: 40px;
   font-weight: bolder;
@@ -91,7 +91,7 @@ nav {
   margin-top: 20px;
   padding: 10px 40px;
   color: #f9faf8;
-  background: linear-gradient(135deg,#31018a,#0058aa);
+  background: linear-gradient(135deg,#005049,#096b63);
   border: none;
   border-radius: 40px;
   transition: 0.5s;
@@ -99,7 +99,7 @@ nav {
 
 .hero button:hover {
   color: #f9faf8;
-  background: #02615c;
+  background: #004946;
   border: none;
   border-radius: 40px;
   transition: 0.5s;
@@ -108,7 +108,7 @@ nav {
 
 .info {
   text-align: center;
-  background: linear-gradient(135deg,#31018a,#0058aa);
+  background: linear-gradient(135deg,#21c1c7 ,#127777);
 }
 
 .info .container {
@@ -140,7 +140,7 @@ nav {
 
 .info .box:hover {
   padding: 20px 40px;
-  border: #8c00ff solid 5px;
+  border: #51b1ff solid 5px;
   border-radius: 30px;
   transition: 0.5s;
 
@@ -158,7 +158,7 @@ nav {
 
 .quote {
   display: flex;
-  background: linear-gradient(45deg,#31018a,#0058aa);
+  background: linear-gradient(45deg,#21c1c7 ,#127777);
 }
 
 .quote .container {
@@ -180,7 +180,7 @@ nav {
 }
 
 .CTA{
-  background: linear-gradient(135deg,#31018a,#0058aa);
+  background: linear-gradient(152deg,#21c1c7 ,#127777);
   padding: 50px 250px 150px;
 }
 
