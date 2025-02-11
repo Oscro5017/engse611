@@ -25,7 +25,7 @@ console.log(Number("6hello1"));
 
 
 console.log('------------');
-amount = 1024.38;
+amount = 1024.67;
 console.log(amount, typeof amount);
 
 // Convert number to string
@@ -36,11 +36,9 @@ console.log(amount, typeof amount);
 amount = String(amount); //<-------
 console.log(amount, typeof amount);
 
+amount = 1024.38
 // Convert string to decimal
 amount = parseFloat(amount);
 console.log(amount, typeof amount);
 
 console.log('------------');
-
-console.log(2 == '2');
-console.log(2 === '2');

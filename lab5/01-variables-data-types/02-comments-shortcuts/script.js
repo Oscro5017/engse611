@@ -1,7 +1,10 @@
-
-//console.log("I'm so tired");
-
+//console.log("Hello")
 /*
-A = getSelection();
-a  =20;
+console.log("Hello world.");
+console.log("answer: "+30.12+9.123);
+const cat="cherry";
+let dog;
+dog = "Joey"
+console.log(cat);
+console.log(dog);
 */
