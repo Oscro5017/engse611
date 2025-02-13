@@ -18,7 +18,7 @@ body {
 
 nav {
   display: flex;
-  background: linear-gradient(90deg,#002c2a,#045f5b,#00a199);
+  background: linear-gradient(90deg,#005255 15% ,#00d6d6 95% ,#00abb1 );
   padding-left: 150px;
   padding-right: 150px;
   height: auto;
@@ -133,14 +133,14 @@ nav {
 .info .box {
   background: #ffffff;
   padding: 20px 20px;
-  border: #008cff solid 5px;
+  border: #00414d solid 5px;
   border-radius: 30px;
   transition: 0.5s;
 }
 
 .info .box:hover {
   padding: 20px 40px;
-  border: #51b1ff solid 5px;
+  border: #00ffdd solid 5px;
   border-radius: 30px;
   transition: 0.5s;
 
