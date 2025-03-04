@@ -1,5 +1,5 @@
 body {
-    background-color: #363636;
+    background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
   }
   
@@ -10,7 +10,6 @@ body {
   }
   
   h1 {
-    color: #fff;
     text-align: center;
     font-weight: 400;
     margin-bottom: 20px;
@@ -79,7 +78,6 @@ body {
   }
   
   li.completed {
-    background-color: #6d6c6c;
-    text-decoration:line-through;
+    background-color: #ecf0f1;
   }
   
