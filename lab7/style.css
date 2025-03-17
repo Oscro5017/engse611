@@ -1,8 +1,25 @@
+body {
+    font-family: 'Segoe UI';
+}
 .container {
+    margin: 100px 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .content {
+    text-align: left;
+}
 
+.content h1, h2 {
+    font-weight: normal;
+}
+
+#mainPic {
+    height: 300px;
+}
+
+#profilePic {
+    height: 200px;
+    width: 200px;
 }

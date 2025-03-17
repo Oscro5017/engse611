@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #005a4e, #00af98);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 510px;
+  height: 510px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.301);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#grid div {
+  background-color: #ffffff;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+#grid div:hover {
+  transform: scale(1.1);
+}
+
+#grid div.x {
+  font-size:75px;
+  color: rgb(0, 119, 255);
+  background-color: rgb(167, 208, 255);
+}
+
+#grid div.o {
+  font-size: 75px;
+  color: rgb(0, 196, 49);
+  background-color: rgb(182, 255, 200);
+}
+
+#Xscore {
+  margin: 0px 30px;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(24, 132, 255);
+}
+
+#Oscore {
+  margin: 0px 30px;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(0, 196, 49);
+}
+
+#reset ,#resetScore{
+  margin: 15px;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #007263;
+  border: #007263 5px solid;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#reset:hover,#resetScore:hover {
+  margin: 10px;
+  color: #000000;
+  background-color: #ffffff31;
+  padding: 15px 25px;
+  transition: 0.3s;
+}
