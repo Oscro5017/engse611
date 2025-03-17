@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Popup Example</title>
+    <style>
+        /* Style สำหรับ overlay ที่จะเป็นพื้นหลัง */
+        .overlay {
+            display: none; /* ซ่อนไว้ในตอนเริ่ม */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* สไตล์สำหรับรูปภาพขนาดใหญ่ */
+        .popup-img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        /* สไตล์สำหรับปุ่มปิด */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-size: 30px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- รูปภาพขนาดเล็กที่จะแสดง -->
+    <img src="small-image.jpg" alt="Image" id="thumbnail" style="width: 200px; cursor: pointer;" />
+
+    <!-- Overlay สำหรับแสดงรูปภาพขนาดใหญ่ -->
+    <div class="overlay" id="popup">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <img id="largeImage" class="popup-img" src="" alt="Large Image" />
+    </div>
+
+    <script>
+        // เมื่อคลิกที่รูปภาพขนาดเล็ก
+        document.getElementById('thumbnail').addEventListener('click', function() {
+            // เปลี่ยนแหล่งที่มาของภาพขนาดใหญ่
+            var largeImage = document.getElementById('largeImage');
+            largeImage.src = 'large-image.jpg'; // ระบุที่อยู่ของภาพขนาดใหญ่
+
+            // แสดง overlay
+            document.getElementById('popup').style.display = 'flex';
+        });
+
+        // เมื่อคลิกที่ปุ่มปิด
+        document.getElementById('closeBtn').addEventListener('click', function() {
+            // ซ่อน overlay
+            document.getElementById('popup').style.display = 'none';
+        });
+
+        // เมื่อคลิกนอกภาพขนาดใหญ่ก็ปิด overlay
+        document.getElementById('popup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                document.getElementById('popup').style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>
