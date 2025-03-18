@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background: #a7874d;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+}
+
+#mainPic{
+    margin: 50px;
+    align-content: center;
+}
+
+#MP {
+    margin-bottom: 20px;
+    height: 300px;
+    width: 400px;
+    border: 20px rgb(80, 57, 16) solid;
+    box-shadow: 5px 5px 5px #0000004b;
+}
+
+#selectPic {
+    background: #917033;
+    text-align: center;
+    border-radius: 40px;
+}
+
+p, button {
+    color: #644202;
+    margin: 40px 20px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background: #cea862;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #0000004b;
+}
+
+.SP {
+    opacity: 80%;
+    border: 10px rgb(82, 59, 29) solid;
+    box-shadow: 3px 3px 3px #0000004b;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.SP:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+}

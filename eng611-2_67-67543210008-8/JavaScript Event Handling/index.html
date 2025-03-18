@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Final JavaScript Event Handling</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="display">
+            <div id="mainPic">
+                <img src="https://picsum.photos/600/800?blur0" alt="mainPicture" id="MP">
+                <br>
+                <button onclick="reload()">Change Picture</button>
+            </div>
+            <div id="selectPic">
+                <p>Select Picture</p>
+                <img src="https://picsum.photos/600/800?blur1" class="SP" onclick="changeToMainPic0()">
+                <br>
+                <img src="https://picsum.photos/600/800?grayscale&blur2" class="SP" onclick="changeToMainPic1()">
+                <br>
+                <img src="https://picsum.photos/600/800" class="SP" onclick="changeToMainPic2()">
+                <br>
+                <img src="https://picsum.photos/600/800?grayscale" class="SP" onclick="changeToMainPic3()">
+            </div>
+        </div>
+        
+    </body>
+</html>
